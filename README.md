@@ -1,4 +1,4 @@
-# SPI Master/Slave comm between DK51 & Arduino UNO
+# SPI Master/Slave comm for DK51-Arduino UNO
 
 SPI Communication between Nordic Semiconductor DK51 board (Master) & Arduino UNO (Slave)
 

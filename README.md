@@ -6,6 +6,16 @@ DK51 board will send periodically a set of command with parameters and data to A
 
 This project is based on `spi_master_with_spi_slave` example by Nordic Semiconductor that can be found in nrf51 SDK
 
+## Pin configuration
+
+| Arduino UNO | NRF51 DK |
+|-------------|----------|
+|   GND       |  GND     | 
+|   10        |  P0.02   |
+|   11        |  P0.01   |
+|   12        |  P0.03   |
+|   13        |  P0.04   |
+
 ## Setup/Installation
 
 * follow SDK/Toolchain Installation steps section of <a href="https://gist.github.com/akinaru/a38315c5fe79ec5c8c6a9ed90b8df260#installation-steps">this tutorial</a>

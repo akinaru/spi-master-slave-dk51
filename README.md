@@ -8,13 +8,13 @@ This project is based on `spi_master_with_spi_slave` example by Nordic Semicondu
 
 ## Pin configuration
 
-| Arduino UNO | NRF51 DK |
-|-------------|----------|
-|   GND       |  GND     | 
-|   10        |  P0.02   |
-|   11        |  P0.01   |
-|   12        |  P0.03   |
-|   13        |  P0.04   |
+| Description     | Arduino UNO | NRF51 DK |
+|------|-------------|----------|
+| -    |   GND       |  GND     | 
+| SS   |   10        |  P0.02   |
+| MOSI |   11        |  P0.01   |
+| MISO |   12        |  P0.03   |
+| SCK  |   13        |  P0.04   |
 
 ## Setup/Installation
 

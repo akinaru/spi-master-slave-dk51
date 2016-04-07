@@ -72,6 +72,7 @@ INC_PATHS += -I$(abspath $(NRF51_SDK_DIR)/components/drivers_nrf/spi_master)
 INC_PATHS += -I$(abspath $(NRF51_SDK_DIR)/components/drivers_nrf/gpiote)
 INC_PATHS += -I$(abspath $(NRF51_SDK_DIR)/components/toolchain/gcc)
 INC_PATHS += -I$(abspath $(NRF51_SDK_DIR)/components/drivers_ext/segger_rtt)
+INC_PATHS += -I$(abspath $(NRF51_SDK_DIR)/components/toolchain/CMSIS/Include)
 
 OBJECT_DIRECTORY = _build
 LISTING_DIRECTORY = $(OBJECT_DIRECTORY)

@@ -88,23 +88,6 @@ static uint8_t m_rx_data[TX_RX_BUF_LENGTH] = {0}; /**< A buffer for incoming dat
 
 static volatile bool m_transfer_completed = true; /**< A flag to inform about completed transfer. */
 
-
-/**@brief Function for error handling, which is called when an error has occurred.
- *
- * @param[in] error_code  Error code supplied to the handler.
- * @param[in] line_num    Line number where the handler is called.
- * @param[in] p_file_name Pointer to the file name.
- */
-void app_error_handler(uint32_t error_code, uint32_t line_num, const uint8_t * p_file_name) {
-
-    UNUSED_VARIABLE(bsp_indication_set(BSP_INDICATE_FATAL_ERROR));
-
-    for (;;) {
-        // No implementation needed.
-    }
-}
-
-
 /**@brief Function for checking if data coming from a SPI slave are valid.
  *
  * @param[in] p_buf     A pointer to a data buffer.
@@ -144,12 +127,12 @@ static void spi_value_received(uint32_t err_code) {
  *
  * @param[in] spi_master_evt    SPI master driver event.
  */
-static void spi_master_event_handler(nrf_drv_spi_event_t event) {
+static void spi_master_event_handler(nrf_drv_spi_evt_t const * p_event) {
 
     uint32_t err_code = NRF_SUCCESS;
     //bool result = false;
 
-    switch (event) {
+    switch (p_event->type) {
 
     case NRF_DRV_SPI_EVENT_DONE:
         // Check if data are valid.

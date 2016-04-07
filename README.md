@@ -1,5 +1,7 @@
 # SPI Master/Slave comm for DK51-Arduino UNO
 
+[![Build Status](https://drone.io/github.com/akinaru/spi-master-slave-dk51/status.png)](https://drone.io/github.com/akinaru/spi-master-slave-dk51/latest)
+
 SPI Communication between Nordic Semiconductor DK51 board (Master) & Arduino UNO (Slave)
 
 DK51 board will send periodically a set of command with parameters and data to Arduino SPI Slave. The latter will send back ACK or NAK response to SPI Master.

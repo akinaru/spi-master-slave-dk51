@@ -1,6 +1,6 @@
 # SPI Master/Slave comm for DK51-Arduino UNO
 
-[![Build Status](https://drone.io/github.com/akinaru/spi-master-slave-dk51/status.png)](https://drone.io/github.com/akinaru/spi-master-slave-dk51/latest)
+[![Build Status](https://drone.io/github.com/bertrandmartel/spi-master-slave-dk51/status.png)](https://drone.io/github.com/bertrandmartel/spi-master-slave-dk51/latest)
 
 SPI Communication between Nordic Semiconductor DK51 board (Master) & Arduino UNO (Slave)
 
@@ -20,7 +20,7 @@ This project is based on `spi_master_with_spi_slave` example by Nordic Semicondu
 
 ## Setup/Installation
 
-* follow SDK/Toolchain Installation steps section of <a href="https://gist.github.com/akinaru/a38315c5fe79ec5c8c6a9ed90b8df260#installation-steps">this tutorial</a>
+* follow SDK/Toolchain Installation steps section of <a href="https://gist.github.com/bertrandmartel/a38315c5fe79ec5c8c6a9ed90b8df260#installation-steps">this tutorial</a>
 
 * specify NRF51 SDK directory with :
 
@@ -48,7 +48,7 @@ nrfjprog --family  nRF51 --program _build/nrf51422_xxac.hex
 nrfjprog --family  nRF51 -r
 ```
 
-To debug your code : <a href="https://gist.github.com/akinaru/a38315c5fe79ec5c8c6a9ed90b8df260#debug-your-code">check this link</a>
+To debug your code : <a href="https://gist.github.com/bertrandmartel/a38315c5fe79ec5c8c6a9ed90b8df260#debug-your-code">check this link</a>
 
 ## License
 

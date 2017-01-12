@@ -1,6 +1,6 @@
 # SPI Master/Slave comm for DK51-Arduino UNO
 
-[![Build Status](https://drone.io/github.com/bertrandmartel/spi-master-slave-dk51/status.png)](https://drone.io/github.com/bertrandmartel/spi-master-slave-dk51/latest)
+[![Build Status](https://travis-ci.org/bertrandmartel/spi-master-slave-dk51.svg?branch=master)](https://travis-ci.org/bertrandmartel/spi-master-slave-dk51)
 
 SPI Communication between Nordic Semiconductor DK51 board (Master) & Arduino UNO (Slave)
 
